@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -49,3 +49,10 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@media screen and (max-width: 550px) {
+  
+  h1 {
+    font-size: 4rem;
+  }
+  }
